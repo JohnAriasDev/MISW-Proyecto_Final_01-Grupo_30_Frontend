@@ -21,10 +21,8 @@ jobs:
         run: npm install
 
       - name: Run tests with code coverage
-        run: ng test -- --code-coverag
-        
-      - name: testand coverage
         run: ng test -- --code-coverage
+        
 
         
       - name: SonarCloud Scan
