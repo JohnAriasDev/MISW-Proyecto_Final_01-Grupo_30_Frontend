@@ -73,7 +73,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     })
   ],
   providers: [
-    //manejo de errores
     {
       provide: HTTP_INTERCEPTORS,
       useClass: HttpErrorInterceptorService,
