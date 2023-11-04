@@ -29,6 +29,16 @@ export class ProfileCreateComponent implements OnInit {
             
     });
   }
+  
+  getProfile (profile: Profile):void{
+    this.profileService.getProfile().subscribe(author=>{
+          console.info("The profile was created: ", profile) 
+          this.toastr.success("Confirmation", "profile created")
+            this.profileForm.reset();
+            
+    });
+  }
+
 
   ngOnInit():void {
     this.profileForm = this.formBuilder.group({
