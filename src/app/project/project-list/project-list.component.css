@@ -29,7 +29,7 @@
   }
   
   .project-card-title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif; 
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -41,7 +41,6 @@
     padding-right: 10%;
     color: var(--m-3-sys-light-on-surface-variant, #49454F);
     /* M3/body/medium */
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
