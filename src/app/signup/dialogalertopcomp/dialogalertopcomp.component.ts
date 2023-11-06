@@ -9,9 +9,4 @@ export class DialogalertopcompComponent implements OnInit {
 
   public iddialog!: string;
 
-  constructor() {  }
-
-  ngOnInit() {
-  }
-
 }
