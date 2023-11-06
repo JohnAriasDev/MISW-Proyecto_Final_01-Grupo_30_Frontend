@@ -7,13 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DialogtypesignupComponent implements OnInit {
 
-  constructor() { }
-
   closeDialog(){
     console.log("entro");
-  }
-
-  ngOnInit() {
   }
 
 }

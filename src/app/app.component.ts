@@ -14,9 +14,6 @@ export class AppComponent {
   showOptions: boolean = false;
   translate2!: TranslateService;
 
-  ngOnInit() {
-  }
-
   changeLang(pref: string){
     localStorage.setItem("lang", pref);
     this.translatelang(this.translate2);
