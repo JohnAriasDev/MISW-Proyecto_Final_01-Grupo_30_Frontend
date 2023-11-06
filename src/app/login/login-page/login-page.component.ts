@@ -6,7 +6,7 @@ import {TranslateService} from '@ngx-translate/core';
 import { Login } from '../login';
 import { LoginService } from '../login.service';
 import { ToastrService } from 'ngx-toastr';
-import { Router, NavigationStart } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-page',
